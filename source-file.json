@@ -1,0 +1,101 @@
+[
+  {
+    "name":"Real Canadian Superstore",
+    "address":"535 Granville Street",
+    "city":"Summerside",
+    "zip":"C1N 3C4",
+    "state":"PE",
+    "country":"CA",
+    "phone":"902-888-1581 x135",
+    "email":"",
+    "openingHours":""
+  },
+  {
+    "name":"Real Canadian Superstore",
+    "address":"2901-8th Street East",
+    "city":"Saskatoon",
+    "zip":"S7H 0V4",
+    "state":"SK",
+    "country":"CA",
+    "phone":"306-956-1642",
+    "email":"",
+    "openingHours":""
+  },
+  {
+    "name":"Real Canadian Superstore",
+    "address":"411 Confederation Drive",
+    "city":"Saskatoon",
+    "zip":"S7L 5C3",
+    "state":"SK",
+    "country":"CA",
+    "phone":"306-683-5635",
+    "email":"",
+    "openingHours":""
+  },
+  {
+    "name":"Real Canadian Superstore",
+    "address":"591-15th Street East",
+    "city":"Prince Albert",
+    "zip":"S6V 1G3",
+    "state":"SK",
+    "country":"CA",
+    "phone":"306-953-8140",
+    "email":"",
+    "openingHours":""
+  },
+  {
+    "name":"Real Canadian Superstore",
+    "address":"206 Broadway Street East",
+    "city":"Yorkton",
+    "zip":"S3N 3H4",
+    "state":"SK",
+    "country":"CA",
+    "phone":"306-786-4042",
+    "email":"",
+    "openingHours":""
+  },
+  {
+    "name":"Real Canadian Superstore",
+    "address":"30 Thatcher Drive East",
+    "city":"Moose Jaw",
+    "zip":"S6J 1L7",
+    "state":"SK",
+    "country":"CA",
+    "phone":"306-691-6047",
+    "email":"",
+    "openingHours":""
+  },
+  {
+    "name":"Real Canadian Superstore",
+    "address":"2055 Prince of Wales Dr.",
+    "city":"Regina",
+    "zip":"S4V 3A3",
+    "state":"SK",
+    "country":"CA",
+    "phone":"306-546-6547",
+    "email":"",
+    "openingHours":""
+  },
+  {
+    "name":"Real Canadian Superstore",
+    "address":"4450 Rochdale Boulevard",
+    "city":"Regina",
+    "zip":"S4X 4N9",
+    "state":"SK",
+    "country":"CA",
+    "phone":"306-546-6647",
+    "email":"",
+    "openingHours":""
+  },
+  {
+    "name":"Real Canadian Superstore",
+    "address":"2270 2 ave",
+    "city":"Whitehorse",
+    "zip":"Y1A 1C8",
+    "state":"YT",
+    "country":"CA",
+    "phone":"867-456-6613",
+    "email":"",
+    "openingHours":""
+  }
+]

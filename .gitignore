@@ -1,0 +1,10 @@
+.DS_Store
+
+*.swn
+*.swo
+*.swp
+
+venv/
+*.sass-cache/
+_reference/
+
