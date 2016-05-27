@@ -24,8 +24,9 @@ var formatter = (function(){
             // loop through the data
             // we have to limit the speed of the loop, otherwise Google detects a DDoS
 
-            var iterator = 0;
-            var limit = data.length;
+            var index = 0;              // position within an array
+            var iterator = 0;           // position in human-readable format
+            var limit = data.length;    // stop after this number
 
             function parse_data_entry() {
 
@@ -51,8 +52,12 @@ var formatter = (function(){
                         console.log( output );
                     }
 
-                    var report = "parsing: " + iterator + " / " + limit;
-                    $('#preview').append( report + '<br>' );
+                    var report = '<div id="query-id-' + index + '">parsing: ' + iterator + ' / ' + limit + '</div>';
+                    $('#preview').append( report );
+
+                    // id index is one less than the iterator, because arrays are zero-based
+                    // therefore, we increment it AFTER our calculations 
+                    index++;
                     
                 }, 250);
 
@@ -100,9 +105,16 @@ var formatter = (function(){
             var result = data.results[0];
        
             // extract the necessary information 
-            output[index].lat = result.geometry.location.lat;
-            output[index].lng = result.geometry.location.lng;
-            output[index].pretty_address = result.formatted_address;
+            try {
+                output[index].lat = result.geometry.location.lat;
+                output[index].lng = result.geometry.location.lng;
+                output[index].pretty_address = result.formatted_address;
+                $( '#query-id-' + index ).append( ' :: succeeded' ).css( 'color' , '#9DD69D' );
+            }
+            catch( error ){
+                // probably : could not find geometry
+                console.log( "something went wrong:" , error );
+            }
 
             // test it
             // console.log( output ); 
